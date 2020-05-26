@@ -25,6 +25,7 @@ In this extension, I explored the logistic regression model in Scikit-learn libr
 **Detail explanations and implementations of Lasso can be found in both notebooks under Extension 1 Folder.**
 
 ## Table of Accuracy:
+![alt text](https://github.com/zzyrd/ML-tools-explorations/blob/master/extension%201.png "Logo Title Text 1")
 For both datasets, the Scikit-learn logisticRegression model achieved higher accuracy when applying l1 penalty term than not applying any penalty term.
 
 My implementation for both datasets was also achieved high accuracy as well, which indicates that adding lasso regularization can improve our model.
@@ -43,6 +44,7 @@ Gaussian Kernel is very popular and heavily used in Support Vector Machine Algor
 **Detail explanations and implementations of Gaussian Kernel can be found in both notebooks under Extension 2 Folder.**
 
 ## Table of Accuracy:
+![alt text](https://github.com/zzyrd/ML-tools-explorations/blob/master/extension%202.png "Logo Title Text 2")
 Accuracy increased on both datasets if we changed to Gaussian Kernel
 0.97 increases to 0.98 for breast cancer data, 0.95 increases to 0.97 for fetch_20newsgroups.
 My implementation for both datasets was also achieved high accuracy score.
@@ -66,7 +68,7 @@ Instead of using Scikit-learn library Neural Network Model: MLPClassifier, I use
 2. Keras is easy to build a flexible NN model where I can change the structure of my neural network. (add layers, change neurons numbers, configure parameters). MLPClassifier in Scikit-learn instead doesn’t provide such flexibility. (not support SoftMax for activation, no control of input/output layer.)
 
 ## Table of Accuracy:
-
+![alt text](https://github.com/zzyrd/ML-tools-explorations/blob/master/extension%203.png "Logo Title Text 3")
 Accuracy improved by SoftMax: 0.9759 > 0.872 on Load_digits dataset. However, for the fetch_covtype dataset, NN with SoftMax didn’t perform well as comparing to NN with Relu.
 My implementation with SoftMax performed pretty well on load_digit dataset, much better than what I implemented in the NN homework, which can only achieve accuracy of 0.2.
 
